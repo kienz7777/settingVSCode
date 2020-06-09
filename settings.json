@@ -1,0 +1,68 @@
+{
+    "editor.fontFamily": "JetBrains Mono, Roboto Mono, Arial",
+    "editor.lineHeight": 22,
+    "editor.letterSpacing": 1,
+    "files.autoSave": "afterDelay",
+    "editor.suggestSelection": "first",
+    "editor.fontLigatures": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "vscode-icons",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorCustomizations": {
+      "sideBar.background": "#282a37",
+      "editor.background": "#282a37",
+      "terminal.background": "#282a37",
+      "panel.background": "#282a37",
+      "activityBar.background": "#282a37",
+      "tab.activeBorderTop": "#ffb86c",
+      "panelTitle.activeBorder": "#ffb86c"
+    },
+    "editor.tokenColorCustomizations": {
+      "[Dracula]": {
+        "textMateRules": [
+          {
+            "scope": "entity.name.function",
+            "settings": {
+              "foreground": "#ffb86c",
+              "fontStyle": "bold"
+            }
+          },
+          {
+            "scope": "entity.other.attribute-name",
+            "settings": {
+              "foreground": "#00FF68",
+              "fontStyle": ""
+            }
+          },
+          {
+            "scope": "string",
+            "settings": {
+              "foreground": "#FFE887"
+            }
+          },
+          {
+            "scope": "punctuation.definition.string.begin",
+            "settings": {
+              "foreground": "#FFE887"
+            }
+          },
+          {
+            "scope": "punctuation.definition.string.end",
+            "settings": {
+              "foreground": "#FFE887"
+            }
+          },
+          {
+            "scope": "string.unquoted",
+            "settings": {
+              "foreground": "#00FF68",
+              "fontStyle": ""
+            }
+          }
+        ]
+      }
+    }
+  }
